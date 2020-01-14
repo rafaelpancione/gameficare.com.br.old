@@ -1,0 +1,78 @@
+/* -- reset -- */
+
+* {
+	box-sizing: border-box;
+	} 
+
+body, h1,h2,p,ul,li,a {
+	margin: 0px;
+	padding: 0px;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+    color: white;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.background{
+    background: url("../img/earth.jpg") no-repeat;
+    background-size: auto;
+}
+
+
+/* LOGO */
+
+.logo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+/* MENU */
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* FOOTER */
+
+.rodape{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(2,44,79,.5);
+    bottom: 0;
+    position: absolute;
+    width: 100%;   
+    padding: 50px 20px 50px 20px;
+}
+
+.rodape p {
+    color: white;
+}
+
+/* RESPONSIVO */
+
+@media only screen and (max-width: 767px){
+    
+}
+ 
+ 
+}
+
+
