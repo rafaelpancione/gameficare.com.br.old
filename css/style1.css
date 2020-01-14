@@ -48,6 +48,23 @@ img {
 .menu{
     display: flex;
     justify-content: space-around;
+    font-family: 'Teko', sans-serif;
+    font-size: 24px;
+}
+
+.menu a:hover{
+    color: rgba(255,255,255,.5);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 /* FOOTER */
@@ -64,6 +81,20 @@ img {
 
 .rodape p {
     color: white;
+    font-family: 'Cairo', sans-serif;
+}
+
+.rodape a:hover{
+    color: rgba(255,255,255,.5);
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+}
+
+.fab{
+    padding: 0px 20px 0px 0px; 
 }
 
 /* RESPONSIVO */
