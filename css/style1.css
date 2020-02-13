@@ -113,6 +113,9 @@ img {
     padding: 50px 20px 50px 20px;
 }
 
+.rodape1{
+    background-color: rgba(2,44,79);
+}
 .rodape p {
     color: white;
     font-family: 'Cairo', sans-serif;
@@ -129,6 +132,12 @@ img {
 
 .fab{
     padding: 0px 20px 0px 0px; 
+}
+
+/* CONTATO */
+
+.contato{
+    display: flex;
 }
 
 /* RESPONSIVO */
