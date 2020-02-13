@@ -140,6 +140,13 @@ img {
     display: flex;
 }
 
+.contato h1{
+    font-family: 'Teko', sans-serif;
+}
+
+.contato p{
+    font-family: 'Cairo', sans-serif;
+}
 /* RESPONSIVO */
 
 @media only screen and (max-width: 767px){
