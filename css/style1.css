@@ -163,6 +163,12 @@ img {
     padding: 32px;
 }
 
+.sobre-nos h1{
+    font-family: 'Teko', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
 .paragrafo{
     margin: 16px 0;
     display: flex;
