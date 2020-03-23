@@ -56,17 +56,6 @@ img {
     color: rgba(255,255,255,.5);
 }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  min-width: 160px;
-  z-index: 1;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
 /* MENU-TOP */
 
 .menu-bg{
@@ -89,28 +78,17 @@ img {
     padding: 0px 20px;
 }
 
-.dropdown-content-top {
-  display: none;
-  position: absolute;
-  min-width: 160px;
-  z-index: 1;
-  background-color: #1c304f;
-}
-
-.dropdown:hover .dropdown-content-top {
-    display: block;
-}
-
 /* FOOTER */
 
 .rodape{
     display: flex;
     justify-content: space-around;
     background-color: rgba(2,44,79,.5);
-    bottom: 0;
-    position: absolute;
     width: 100%;   
     padding: 50px 20px 50px 20px;
+    position:absolute;
+    bottom:0;
+    flex-wrap: wrap;
 }
 
 .rodape1{
@@ -190,13 +168,47 @@ img {
     flex: 1 1 200px;
 }
 
-/* RESPONSIVO */
-
-@media only screen and (max-width: 767px){
+/* -- RESPONSIVO -- */
+@media only screen and (min-width: 768px) and (max-width: 959px){
     
 }
- 
- 
+
+@media only screen and (max-width: 767px){
+   
+
+/* FOOTER */
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    }
+    
+.rodape{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    position: relative;
+    height: 400px;
 }
+
+.social{
+    display: flex;
+    flex-direction: column;
+}
+
+.fab{
+    font-size: 40px;
+    padding: 0px 10px; 
+}
+
+
+}
+
+ 
+
 
 
