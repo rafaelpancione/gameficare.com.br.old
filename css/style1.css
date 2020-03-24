@@ -142,6 +142,10 @@ img {
     padding: 32px;
 }
 
+.sobre-nos p, h2{
+    font-family: 'Cairo', sans-serif;
+}
+
 .sobre-nos h1{
     font-family: 'Teko', sans-serif;
     font-size: 40px;
