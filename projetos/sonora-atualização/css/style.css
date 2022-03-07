@@ -1,0 +1,286 @@
+/* -- reset -- */
+* {
+	box-sizing: border-box;
+	} 
+
+body, h1,h2,p,ul,li,a {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: Arial;
+	color: white;
+    background-color: #f2c300; 
+    background-image: linear-gradient(#f2c300, #ff7900); 
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+p{
+    color: white;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.titulo{
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: 'Passion One', cursive;
+    font-size: 36px;
+}
+
+.texto{
+    font-size: 1.25em;
+    line-height: 1.4;
+}
+
+.laranja{
+    color: #f89c00;
+}
+
+.marrom{
+    color: #2e2100;
+}
+
+/* MENU */
+.menu{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.menu-bg{
+    background: #2e2100;
+}
+
+.menu a{
+    font-family: 'Passion One', cursive; 
+    font-size: 1.4em;
+    color: white;
+    padding: 10px 10px;
+}
+
+.menu a:hover{
+    color: #f89c00;
+}
+
+/* INTRO */
+
+.intro{
+    padding: 20px;
+}
+
+.logo{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* RESUMO */
+
+.resumo{
+    padding: 0px 20px 20px 20px;
+}
+
+/*SLIDER*/
+
+.slider{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.btn{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.btn-circle{
+    border-radius: 50%;
+    color:#f2c300;
+    background-color:#fff;
+    opacity: .8;    
+}
+
+.btn-circle:hover{
+    background-color:#2e2100;      
+}
+
+.btn-button{
+    border:none;
+    padding:10px 15px;
+}
+
+/*PROBLEMA*/
+
+.problema{
+   
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.prob{
+   flex: 1 300px;
+   padding: 20px; 
+}
+
+.titulo-50{
+    font-family: Impact;
+    text-align: right;
+    font-size: 100px;
+}
+
+/* POTENCIALIDADES*/
+
+.potencialidades{
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+
+.potenciais{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.area{
+   text-align: center; 
+   padding: 0px 50px;
+}
+
+.area h1{
+    font-family: impact;
+    font-size: 36px;
+}
+
+/* SOLUÇÃO PROPOSTA*/
+
+.solucao{
+    padding: 20px;
+}
+
+/*EVENTOS*/
+
+.iframe-container {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+    margin: 20px 0;
+}
+
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+
+/* EQUIPE*/
+
+.equipe{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.integrantes{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 0px 40px;
+}
+
+.redes-sociais{
+    display: flex;
+}
+
+.redes-sociais a{
+    padding: 10px;
+    color: white;
+}
+
+/* DOWNLOAD*/
+
+.download-texto{
+    padding: 0px 20px;
+}
+
+.btn-download{
+    text-align: center;
+    padding: 20px;
+}
+.download{
+ background: none;
+ border: none;
+}
+
+/* FINAL */
+
+.final{
+    padding: 0px 20px 20px 20px;
+}
+
+
+
+/* footer */
+
+.footer{
+    display: flex;
+    height: 50px;
+    background: #2e2100;
+    align-items: center; 
+    margin-top: 20px;
+}
+
+.footer p{
+    flex: 1;
+    text-align: center;
+    color: #fff;
+}
+
+/* RESPONSIVO */
+
+@media only screen and (max-width: 767px){
+    
+    .titulo-50{
+    font-family: Impact;
+    text-align: center;
+    font-size: 100px;
+}
+ 
+    /*SLIDER*/
+
+.btn{
+   display: none;
+}  
+ 
+}
+
+
